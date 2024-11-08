@@ -1,11 +1,2 @@
-type Vector3D = vec float64;
-type FieldPoint = 
- record {
-   direction: Vector3D;
-   magnitude: float64;
-   position: Vector3D;
- };
 service : {
-  calculateField: (float64, float64, Vector3D, Vector3D, float64) ->
-   (vec FieldPoint) query;
 }
